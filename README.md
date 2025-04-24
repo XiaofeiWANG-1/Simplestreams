@@ -19,24 +19,26 @@ This tool extracts:
 ```bash
 sudo apt update
 sudo apt install libcurl4-openssl-dev nlohmann-json3-dev cmake g++
-
+```
 
 # Build on ubuntu
-
-git clone https://github.com/yourusername/ubuntu-image-tool.git
-cd ubuntu-image-tool
+```bash
+git clone https://github.com/XiaofeiWANG-1/Simplestreams.git
+cd Simplestreams
 mkdir build && cd build
 cmake ..
-cmake --build .
+make
+```
 
-## No test on windows, and mac systems.
+# Usage
 
-
-##Usage
 ./ubuntu_tool [OPTIONS]
 
 ./ubuntu_tool --list
 ./ubuntu_tool --lts
 ./ubuntu_tool --sha256 jammy
+
+## No test on windows, and mac systems.
+
 
 
