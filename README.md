@@ -31,13 +31,12 @@ make
 ```
 
 # Usage
-
+```bash
 ./ubuntu_tool [OPTIONS]
-
 ./ubuntu_tool --list
 ./ubuntu_tool --lts
 ./ubuntu_tool --sha256 jammy
-
+```
 ## No test on windows, and mac systems.
 
 
